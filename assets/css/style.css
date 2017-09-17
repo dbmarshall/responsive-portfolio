@@ -38,6 +38,9 @@ p {
   padding: 10px 0;
   line-height: 1.9;
 }
+p:first-of-type {
+  padding: 0 0 10px 0;
+}
 .tealback {
   background-color: #4aaaa5;
 }
@@ -77,7 +80,7 @@ footer .copyright {
 
 }
 .mainwrapper {
-  width: 980px;
+  width: 960px;
   margin: 0 auto;
 }
 #name {
@@ -86,7 +89,7 @@ footer .copyright {
   float: left;
 }
 #nav {
-  padding: 35px 0 0 0;
+  padding: 25px 0 0 0;
   color: #efefef;
   text-align: right;
   float: right;
@@ -108,7 +111,7 @@ footer .copyright {
 }
 img.profileimage {
   width: 200px;
-  padding: 22px 22px 10px 0;
+  padding: 10px 22px 10px 0;
   float: left;
 }
 .social {
@@ -119,7 +122,7 @@ img.profileimage {
 .social img {
   width: 62px;
   height: 62px;
-  margin: 0 1px 0 0;
+  margin: 0 2px 0 0;
   border: 2px solid #fff;
 }
 .social img:hover {
@@ -206,13 +209,13 @@ button:focus {
 /* Width at 980px and below */
 @media screen and (max-width: 980px) {
   body {
-    background: green;
-  }
-  #nav span {
-    padding: 0 12px;
+
   }
   .mainwrapper {
     width: 728px;
+  }
+  #nav span {
+    padding: 0 12px;
   }
   .content {
     width: 364px;
@@ -226,15 +229,13 @@ button:focus {
   }
   img.profileimage {
     width: 100%;
-    padding: 22px 22px 10px 0;
+    padding: 0 22px 10px 0;
     float: none;
   }
   .thumb {
     position: relative;
     width: 360px;
     height: 270px;
-    margin: 0 0 30px 0;
-    opacity: .8;
     float: none;
   }
   .thumb.even {
@@ -254,20 +255,112 @@ button:focus {
 /* Width at 768px and below */
 @media screen and (max-width: 768px) {
   body {
-    background: blue;
+
   }
   .mainwrapper {
-    width: 640px;
+    width: 100%;
+  }
+  #nav {
+    padding: 25px 20px 0 0;
+  }
+  .content.maininner {
+    width: 80%;
+    margin: 38px auto;
+    float: none;
+  }
+  .social.maininner {
+    width: 80%;
+    margin: 0 auto 38px;
+    float: none;
+  }
+  .maininner {
+    margin: 38px 0;
+    padding: 28px;
+  }
+  img.profileimage {
+    width: 40%;
+    padding: 10px 22px 10px 0;
+    float: left;
+  }
+  .social img {
+    margin: 0 10px 0 0;
+  }
+  .thumb {
+    position: relative;
+    width: 315px;
+    height: 235.5px;
+    float: left;
+  }
+  .thumb.even {
+    float: right;
+  }
+  .thumb.bottom {
+    margin-bottom: 0;
+  }
+  .thumb.even.bottom {
+    margin-bottom: 0;
+  }
+  .thumb img {
+    width: 314px;
   }
 }
 
 /* Width at 640px and below */
 @media screen and (max-width: 640px) {
   body {
-    background: red;
+    
   }
   .mainwrapper {
-    width: 320px;
+
+  }
+  #name, 
+  #nav {
+    display: block;
+    padding: 25px;
+    text-align: center;
+    float: none;
+  }
+  #nav span {
+    padding: 0 6%;
+  }
+  .content {
+
+  }
+  .social {
+
+  }
+  .maininner {
+    margin: 38px 0;
+    padding: 28px;
+  }
+  .social.maininner {
+    margin: 0 auto 38px;
+  }
+  img.profileimage {
+    width: 100%;
+    padding: 0 22px 10px 0;
+    float: none;
+  }
+  .social img {
+    margin: 0 10px 0 0;
+  }
+  .thumb {
+    position: relative;
+    width: 315px;
+    height: 235.5px;
+    float: left;
+  }
+  .thumb.even {
+    float: right;
+  }
+  .thumb.bottom {
+    margin-bottom: 0;
+  }
+  .thumb.even.bottom {
+    margin-bottom: 0;
+  }
+  .thumb img {
+    width: 314px;
   }
 }
 
