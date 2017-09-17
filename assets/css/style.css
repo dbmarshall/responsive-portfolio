@@ -1,5 +1,5 @@
 /**
- Basic Portfolio
+ Responsive Portfolio
  **/
 html, body {
   height: 100%;
@@ -8,7 +8,7 @@ body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 18px;
   color: #777;
-  background-image: url('../images/fabric_1.png');
+  background: #e4e4e3 url('../images/fabric_1.png');
 }
 h1, h2, h3, h4 {
   font-family: 'Georgia', Times, Times New Roman, serif;
@@ -56,6 +56,7 @@ header {
 }
 footer {
   position: fixed;
+  z-index: 10;
   bottom: 0;
   width: 100%;
   height: 94px;
@@ -76,7 +77,7 @@ footer .copyright {
 
 }
 .mainwrapper {
-  width: 960px;
+  width: 980px;
   margin: 0 auto;
 }
 #name {
@@ -127,7 +128,7 @@ img.profileimage {
 .social img.last {
   margin: 0;
 }
-.maincontent {
+.maininner {
   margin: 38px 0;
   padding: 28px;
   background-color: #fff;
@@ -202,6 +203,73 @@ button:focus {
   color: #a9a9a9;
 }
 
+/* Width at 980px and below */
+@media screen and (max-width: 980px) {
+  body {
+    background: green;
+  }
+  #nav span {
+    padding: 0 12px;
+  }
+  .mainwrapper {
+    width: 728px;
+  }
+  .content {
+    width: 364px;
+  }
+  .social {
+    width: 214px;
+  }
+  .maininner {
+    margin: 38px 0;
+    padding: 28px;
+  }
+  img.profileimage {
+    width: 100%;
+    padding: 22px 22px 10px 0;
+    float: none;
+  }
+  .thumb {
+    position: relative;
+    width: 360px;
+    height: 270px;
+    margin: 0 0 30px 0;
+    opacity: .8;
+    float: none;
+  }
+  .thumb.even {
+    float: none;
+  }
+  .thumb.bottom {
+    margin-bottom: 30px;
+  }
+  .thumb.even.bottom {
+    margin-bottom: 0;
+  }
+  .thumb img {
+    width: 358px;
+  }
+}
+
+/* Width at 768px and below */
+@media screen and (max-width: 768px) {
+  body {
+    background: blue;
+  }
+  .mainwrapper {
+    width: 640px;
+  }
+}
+
+/* Width at 640px and below */
+@media screen and (max-width: 640px) {
+  body {
+    background: red;
+  }
+  .mainwrapper {
+    width: 320px;
+  }
+}
 
 
 
