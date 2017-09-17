@@ -266,6 +266,7 @@ button:focus {
   .content.maininner {
     width: 80%;
     margin: 38px auto;
+    overflow: auto;
     float: none;
   }
   .social.maininner {
@@ -287,8 +288,8 @@ button:focus {
   }
   .thumb {
     position: relative;
-    width: 315px;
-    height: 235.5px;
+    width: 47%;
+    height: auto;
     float: left;
   }
   .thumb.even {
@@ -301,7 +302,8 @@ button:focus {
     margin-bottom: 0;
   }
   .thumb img {
-    width: 314px;
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -346,21 +348,21 @@ button:focus {
   }
   .thumb {
     position: relative;
-    width: 315px;
-    height: 235.5px;
+    width: 100%;
     float: left;
   }
   .thumb.even {
     float: right;
   }
   .thumb.bottom {
-    margin-bottom: 0;
+    margin-bottom: 30px;
   }
   .thumb.even.bottom {
     margin-bottom: 0;
   }
   .thumb img {
-    width: 314px;
+    width: 100%;
+    height: auto;
   }
 }
 
