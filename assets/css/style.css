@@ -38,7 +38,7 @@ p {
   padding: 10px 0;
   line-height: 1.9;
 }
-p:first-of-type {
+.content p:first-of-type {
   padding: 0 0 10px 0;
 }
 .tealback {
@@ -308,7 +308,7 @@ button:focus {
 /* Width at 640px and below */
 @media screen and (max-width: 640px) {
   body {
-    
+
   }
   .mainwrapper {
 
