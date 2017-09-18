@@ -16,3 +16,7 @@ Week One Responsiveness Assignment: [Part 2](http://ucb.bootcampcontent.com/UCB-
 
 * David Morse ([dbmarshall.github.io](https://dbmarshall.github.io))
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
