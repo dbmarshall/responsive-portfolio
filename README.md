@@ -1,6 +1,6 @@
 # Responsive Portfolio
 
-Week One Responsiveness Assignment: [Part 2](http://ucb.bootcampcontent.com/UCB-Coding-Bootcamp/09-11-2017-UCB-Class-Repository-FSF-FT/blob/master/01-week/homework/part-2/Instructions/homework-instructions.md).
+Week One Homework Part 2: [Responsiveness Assignment](http://ucb.bootcampcontent.com/UCB-Coding-Bootcamp/09-11-2017-UCB-Class-Repository-FSF-FT/blob/master/01-week/homework/part-2/Instructions/homework-instructions.md).
 
 ### No Prerequisites, Installation, or Testing Instructions required
 
