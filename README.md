@@ -6,7 +6,7 @@ Week One Homework Part 2: [Responsiveness Assignment](http://ucb.bootcampcontent
 
 ## Built With
 
-### Previous bonuses from Week One homework [part one](http://ucb.bootcampcontent.com/UCB-Coding-Bootcamp/09-11-2017-UCB-Class-Repository-FSF-FT/blob/master/01-week/homework/part-1/Instructions/recommended-homework-assignment.md)
+**Previous bonuses from Week One homework [part one](http://ucb.bootcampcontent.com/UCB-Coding-Bootcamp/09-11-2017-UCB-Class-Repository-FSF-FT/blob/master/01-week/homework/part-1/Instructions/recommended-homework-assignment.md)**
 
 * Sticky footer
 * Hover states for header navigation, social media icons, portfolio thumbnails, and contact submit button.
@@ -14,7 +14,7 @@ Week One Homework Part 2: [Responsiveness Assignment](http://ucb.bootcampcontent
 
 ## Author
 
-* David Morse ([dbmarshall.github.io](https://dbmarshall.github.io))
+* **David Morse** ([dbmarshall.github.io](https://dbmarshall.github.io))
 
 ## License
 
